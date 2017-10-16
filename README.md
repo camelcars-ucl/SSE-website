@@ -1,2 +1,2 @@
 # SSE-website
-The websites for SSE (Software Systems Engineering)
+The website for SSE (Software Systems Engineering)
