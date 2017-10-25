@@ -46,6 +46,10 @@ a {
     text-decoration: none;
     color: #1d9b6c; }
 
+.divider_22 {
+  background-color: white;
+}
+
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
@@ -72,6 +76,18 @@ a {
     #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
       outline: none;
       background-color: transparent; }
+    #mainNav .dropdown{
+      padding-left: 10px;
+      padding-top: 7px;
+    }
+    #mainNav .dropdown-menu{
+      background-color: transparent;
+      border: none;
+    }
+
+    #mainNav .dropdown-menu .divider{
+      background-color: white;
+    }
   @media (min-width: 992px) {
     #mainNav {
       padding-top: 20px;
@@ -92,6 +108,11 @@ a {
         background-color: rgba(255, 255, 255, 0.3); }
         #mainNav .nav-link.active:hover {
           color: white; } }
+      #mainNav .dropdown{
+        padding-left: 0px;
+        padding-top: 7px;
+      }
+
 
 .masthead {
   display: table;
