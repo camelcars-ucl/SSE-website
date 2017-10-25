@@ -109,7 +109,7 @@ a {
         #mainNav .nav-link.active:hover {
           color: white; } }
       #mainNav .dropdown{
-        padding-left: 0px;
+        padding-left: 10px;
         padding-top: 7px;
       }
 
