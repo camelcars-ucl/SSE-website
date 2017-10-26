@@ -163,7 +163,7 @@ function init() {
       "featureType": "administrative",
       "elementType": "geometry.stroke",
       "stylers": [{
-        "color": "#000000"
+        "color": "#000001"
       }, {
         "lightness": 17
       }, {
