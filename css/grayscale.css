@@ -97,6 +97,12 @@ a {
     #mainNav .dropdown-menu .dropdown-divider{
       background-color: white;
     }
+    /*#mainNav .dropdown:hover .dropdown-menu{
+      transition: all 200ms ease-out;
+      -webkit-transition: all 200ms ease-out;
+      -ms-transition: all 200ms ease-out;
+      display: block;
+    }*/
   @media (min-width: 992px) {
     #mainNav {
       padding-top: 20px;
