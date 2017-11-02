@@ -84,13 +84,14 @@ a {
       outline: none;
       background-color: transparent; }
     #mainNav .dropdown-menu{
-      background-color: transparent;
+      background-color: black;
       border: none;
       font-size: 11px; 
     }
 
     #mainNav .dropdown-menu .dropdown-divider{
-      background-color: white;
+      background-color: black;
+      color: black;
     }
     /*#mainNav .dropdown:hover .dropdown-menu{
       transition: all 200ms ease-out;
