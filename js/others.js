@@ -27,13 +27,13 @@
   });
 
   // Collapse the navbar when page is scrolled
-  $(window).scroll(function() {
-    if ($("#mainNav").offset().top > 100) {
+  /*$(window).scroll(function() {
+    if ($("#mainNav").offset().top > 0) {
       $("#mainNav").addClass("navbar-shrink");
     } else {
-      $("#mainNav").removeClass("navbar-shrink");
+      $("#mainNav").addClass("navbar-shrink");
     }
-  });
+  });*/
 
 //Enables smooth dropdown for the dropdown menu
 $(document).ready(function () {
