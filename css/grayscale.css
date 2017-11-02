@@ -185,7 +185,7 @@ a {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/oldcomp.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -221,6 +221,16 @@ a {
     border: 1px solid #42DCA3;
     outline: none;
     background-color: #42DCA3; }
+
+.btn-default_2{
+  color: #86bde8;
+  border: 1px solid #86bde8;
+  background-color: transparent; }
+  .btn-default_2:focus, .btn-default_2:hover {
+    color: black;
+    border: 1px solid #86bde8;
+    outline: none;
+    background-color: #86bde8; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
