@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="DynamicTimeline/css/reset.css"> <!-- CSS reset -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/overview-test.css" rel="stylesheet">
+    <style>
+    
+      /* -------------------------------- 
+
+  Primary style
+
+  -------------------------------- */
+      *, *::after, *::before {
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        font-size: 1.6rem;
+        font-family: "Roboto", sans-serif;
+        color: #383838;
+        background-color: #fafafa;
+      }
+      h1 { margin:150px auto 30px auto; text-align:center;}
+      #for_overview{
+        font-size: 70px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #555555;
+      }
+      .blog-colours{
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #555555;
+      }
+      .padding_for_button{
+        padding-left: 160px;
+      }
+      
+
+    </style>
+    <link rel="stylesheet" href="DynamicTimeline/css/style.css"> <!-- Resource style -->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="DynamicTimeline/js/jtline.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var contentText = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.';
+
+            var requirements = "Extracting the requirements of a desired software product is the first task in creating it. While customers probably believe they know what the software is to do, it may require skill and experience in software engineering to recognize incomplete, ambiguous or contradictory requirements.";
+            var design = "Software design is the process by which an agent creates a specification of a software artifact, intended to accomplish goals, using a set of primitive components and subject to constraints. It usually involves problem solving and planning a software solution. This includes both a low-level component and algorithm design and a high-level, architecture design.";
+            var implementation = "This step involes reducing the design to code. The implementaton must take into account things such as resource consumption and the correctness of algorithms";
+            var testing = "Software testing involves the execution of a software component or system component to evaluate one or more properties of interest. In general, these properties indicate the extent to which the software met the requirements that guided its design and development.";
+            var deployment = "Software deployment is all of the activities that make a software system available for use. The general deployment process consists of several interrelated activities with possible transitions between them. Because every software system is unique, the precise processes or procedures within each activity can hardly be defined. Therefore, deployment should be interpreted as a general process that has to be customized according to specific requirements or characteristics.";
+            var maintenance = "Software maintenance in software engineering is the modification of a software product after delivery to correct faults, to improve performance or other attributes.";
+
+
+            // dataRoot : '/'
+            var myMappedObject = [
+                  {
+                      "isSelected": "true",
+                      "taskTitle": "Requirements Analysis",
+                      "taskSubTitle": "",
+                      "assignDate": "16/01/2014",
+                      "taskShortDate": "Requirements",
+                      "taskDetails": requirements
+                  },
+                  {
+                      "isSelected": "",
+                      "taskTitle": "Design",
+                      "taskSubTitle": "",
+                      "assignDate": "16/05/2014",
+                      "taskShortDate": "Design",
+                      "taskDetails": design
+                  },
+                  {
+                      "isSelected": "",
+                      "taskTitle": "Implementation",
+                      "taskSubTitle": "",
+                      "assignDate": "16/09/2014",
+                      "taskShortDate": "Implementation",
+                      "taskDetails": implementation
+                  },
+                  {
+                      "isSelected": "",
+                      "taskTitle": "Testing",
+                      "taskSubTitle": "",
+                      "assignDate": "16/01/2015",
+                      "taskShortDate": "Testing",
+                      "taskDetails": testing
+                  },
+                  {
+                      "isSelected": "",
+                      "taskTitle": "Deployment",
+                      "taskSubTitle": "",
+                      "assignDate": "16/05/2015",
+                      "taskShortDate": "Deployment",
+                      "taskDetails": deployment
+                  },
+                  {
+                      "isSelected": "",
+                      "taskTitle": "Maintenance",
+                      "taskSubTitle": "",
+                      "assignDate": "16/09/2015",
+                      "taskShortDate": "Maintenance",
+                      "taskDetails": maintenance
+                  }
+            ];
+
+            var jtLine = $('.myjtline').jTLine({
+                callType: 'jsonObject',
+                structureObj: myMappedObject,
+                map: {
+                    "dataRoot": "/",
+                    "title": "taskTitle",
+                    "subTitle": "taskSubTitle",
+                    "dateValue": "assignDate",
+                    "pointCnt": "taskShortDate",
+                    "bodyCnt": "taskDetails"
+                },
+                onPointClick: function (e) {
+                    console.log(e);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+  <title>Software Development Process</title>
+  <div class="myjtline"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-4">
+        <div class="padding_for_button">
+          <a href="overview1.html" class="btn btn-default_2 btn-lg">Go Back</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="js/others.js"></script>
+</html>
