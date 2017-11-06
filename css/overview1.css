@@ -35,6 +35,7 @@ p {
       line-height: 1.6;
       margin: 0 0 35px; } }
 
+
 a {
   
   -webkit-transition: all 0.2s ease-in-out;
@@ -232,14 +233,14 @@ a {
     background-color: #42DCA3; }
 
 .btn-default_2{
-  color: #86bde8;
-  border: 1px solid #86bde8;
+  color: #6187d8;
+  border: 1px solid #6187d8;
   background-color: transparent; }
   .btn-default_2:focus, .btn-default_2:hover {
     color: black;
-    border: 1px solid #86bde8;
+    border: 1px solid #6187d8;
     outline: none;
-    background-color: #86bde8; }
+    background-color: #6187d8; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
@@ -278,3 +279,4 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+
