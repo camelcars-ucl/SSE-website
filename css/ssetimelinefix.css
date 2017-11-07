@@ -70,11 +70,15 @@ ul {
     color: white;
     border: 1px solid white; }
   #mainNav .navbar-brand {
-    font-weight: 700; }
+    font-weight: 700;
+    color: #050505;
+ }
   #mainNav a {
     color: white; }
   #mainNav .navbar{
     display: block;
+    color: #050505;
+    background-color: #050505;
   }
   #mainNav .navbar-nav .nav-item {
     -webkit-transition: background 0.3s ease-in-out;
@@ -89,7 +93,7 @@ ul {
       background-color: black; }
     #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
       outline: none;
-      background-color: black; }
+      background-color: transparent; }
     /*
     #mainNav .dropdown{
       padding-left: 10px;
@@ -102,7 +106,7 @@ ul {
     }
 
     #mainNav .dropdown-menu .dropdown-divider{
-      background-color: white;
+      background-color: black;
     }
     /*#mainNav .dropdown:hover .dropdown-menu{
       transition: all 200ms ease-out;
