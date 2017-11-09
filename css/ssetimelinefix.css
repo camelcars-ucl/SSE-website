@@ -260,9 +260,11 @@ ul.banner-social-buttons {
 
 footer {
   padding: 10px; 10px; 10px; 10px; 
-   background: #d3d3d3;
+  
+    font-size: 14px;
     margin: 10;
 }
+
   
 
 ::-moz-selection {
