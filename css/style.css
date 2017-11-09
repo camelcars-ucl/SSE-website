@@ -61,12 +61,6 @@ Modules - reusable parts of our design
 Main components
 
 -------------------------------- */
-header h3 {
-  color: white;
-  font-size: 14px;
-  font-size: 1.125rem;
-  padding-top: 20px;
-}
 header {
   height: 180px;
   line-height: 225px;
@@ -74,6 +68,13 @@ header {
   background: #303e49 url(../images.jpg);
   
 
+}
+
+header h3 {
+  color: white;
+  font-size: 14px;
+  font-size: 1.125rem;
+  padding-top: 20px;
 }
 
 @media only screen and (min-width: 1170px) {
