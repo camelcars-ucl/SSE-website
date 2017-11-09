@@ -259,10 +259,12 @@ ul.banner-social-buttons {
         margin-bottom: 0; } }
 
 footer {
-  padding: 10px; 10px; 10px; }
+  padding: 10px; 10px; 10px; 10px; 
+   background: #d3d3d3;
+}
   footer p {
     font-size: 14px;
-    margin: 0; }
+    margin: 10; }
 
 ::-moz-selection {
   background: #fcfcfc;
