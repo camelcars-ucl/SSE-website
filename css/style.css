@@ -15,6 +15,7 @@ html * {
 }
 
 body {
+  padding-top: 30px;
   font-size: 100%;
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: black;
@@ -65,7 +66,7 @@ header {
   height: 180px;
   line-height: 225px;
   text-align: center;
-  background: #303e49 
+ 
   
 
 }
