@@ -53,9 +53,26 @@ a {
         background-color: white;
   }
 
+
 ul {
       padding: 2px 50px 5px 100px;
 }
+header {
+  height: 180px;
+  line-height: 225px;
+  text-align: center;
+  background: #303e49 
+  
+
+}
+
+header h3 {
+  color: white;
+  font-size: 14px;
+  font-size: 1.125rem;
+  padding-top: 20px;
+}
+
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
