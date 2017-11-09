@@ -71,11 +71,11 @@ header {
 
 }
 
-header h3 {
+header h2 {
   color: white;
   font-size: 14px;
   font-size: 1.125rem;
-  padding-top: 20px;
+  padding-top: 2px;
 }
 
 @media only screen and (min-width: 1170px) {
