@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 body {
-   padding-top: 20px;
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
@@ -41,7 +40,7 @@ p {
       margin: 0 0 35px; } }
 
 a {
-   font-weight: bold;
+
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -54,12 +53,9 @@ a {
         background-color: white;
   }
 
-
 ul {
       padding: 2px 50px 5px 100px;
 }
-
-
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -259,13 +255,10 @@ ul.banner-social-buttons {
         margin-bottom: 0; } }
 
 footer {
-  padding: 10px; 10px; 10px; 10px; 
-  
-    font-size: 12px;
-    margin: 10;
-}
-
-  
+  padding: 50px 0; }
+  footer p {
+    font-size: 14px;
+    margin: 0; }
 
 ::-moz-selection {
   background: #fcfcfc;
