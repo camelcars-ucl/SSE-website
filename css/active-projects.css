@@ -55,6 +55,7 @@ a {
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
+    color: black;
     color: white;
     border: 1px solid white; }
   #mainNav .navbar-brand {
@@ -79,19 +80,19 @@ a {
     #mainNav .navbar-nav .nav-item:hover {
       color: fade(white, 80%);
       outline: none;
-      background-color: transparent; }
+      background-color: black; }
     #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
       outline: none;
       background-color: transparent; }
     #mainNav .dropdown-menu{
       background-color: black;
       border: none;
-      font-size: 11px; 
+      font-size: 11px;
     }
 
     #mainNav .dropdown-menu .dropdown-divider{
       background-color: black;
-      color: black;
+      /*color: black;*/
     }
     /*#mainNav .dropdown:hover .dropdown-menu{
       transition: all 200ms ease-out;
@@ -108,7 +109,7 @@ a {
       transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
       letter-spacing: 1px;
       border-bottom: none;
-      background: transparent; }
+      background: black; }
       #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -119,7 +120,6 @@ a {
         background-color: rgba(255, 255, 255, 0.3); }
         #mainNav .nav-link.active:hover {
           color: white; } }
-      /*
       #mainNav .dropdown{
         padding-left: 10px;
         padding-top: 7px;
