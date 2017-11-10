@@ -241,6 +241,8 @@ a {
     border: 1px solid #6187d8;
     outline: none;
     background-color: #6187d8; }
+inline-block {
+   display: inline-block;}
 
 ul.banner-social-buttons {
   margin-top: 0; }
