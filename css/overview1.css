@@ -7,11 +7,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555555;
 }
-div { width: 50%; height: 50%; float: left; }
-#div1 { background: #DDD; }
-#div2 { background: #AAA; }
-#div3 { background: #777; }
-#div4 { background: #444; }
+
 
 html {
   width: 100%;
@@ -148,7 +144,7 @@ a {
 }
 
 #custom_add_padding{
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 @media (min-width: 40em) {
